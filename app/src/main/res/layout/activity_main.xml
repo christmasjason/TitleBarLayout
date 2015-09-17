@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MyfAndroid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+  <com.christmas.titlebarlayout.TitleBarLayout
+      android:id="@+id/tbl_1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      MyfAndroid:leftIconVisible="false"
+      android:background="@android:color/holo_blue_light" />
+
+  <com.christmas.titlebarlayout.TitleBarLayout
+      android:id="@+id/tbl_2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      MyfAndroid:leftIconVisible="false"
+      android:background="@android:color/holo_blue_light" />
+
+  <com.christmas.titlebarlayout.TitleBarLayout
+      android:id="@+id/tbl_3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      MyfAndroid:leftMainIcon="@mipmap/ic_launcher"
+      MyfAndroid:customTitle="左侧图标点击回退"
+      android:background="@android:color/holo_blue_light" />
+
+  <com.christmas.titlebarlayout.TitleBarLayout
+      android:id="@+id/tbl_4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      MyfAndroid:leftMainIcon="@mipmap/ic_launcher"
+      MyfAndroid:customTitle="左侧图标点击自定义"
+      android:background="@android:color/holo_blue_light" />
+
+  <com.christmas.titlebarlayout.TitleBarLayout
+      android:id="@+id/tbl_5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      MyfAndroid:leftIconVisible="false"
+      MyfAndroid:customTitle="只有标题"
+      android:background="@android:color/holo_blue_light" />
+
+</LinearLayout>

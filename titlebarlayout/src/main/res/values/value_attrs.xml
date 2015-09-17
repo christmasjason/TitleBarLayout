@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="TitleBarLayout">
+    <attr name="customTitle" format="string" />
+    <attr name="titleType" format="enum">
+      <enum name="single" value="0" />
+      <enum name="multiple" value="1" />
+    </attr>
+    <attr name="titleOrientation" format="enum">
+      <enum name="horizontal" value="0" />
+      <enum name="vertical" value="1" />
+    </attr>
+    <attr name="titleFocusBackground" format="reference" />
+    <attr name="titleNormalBackground" format="reference" />
+    <attr name="leftMainIcon" format="reference" />
+    <attr name="leftIconVisible" format="boolean" />
+    <attr name="leftMainIconScaleX" format="float" />
+    <attr name="leftMainIconScaleY" format="float" />
+    <attr name="leftSubIcon" format="reference" />
+  </declare-styleable>
+</resources>
