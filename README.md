@@ -10,7 +10,7 @@ Last version is 1.0.0
 Just add the following statement in your build.gradle
 
 ```
-compile 'com.github.christmasjason:titlebarlayout:1.0.0'
+compile 'com.github.christmasjason:TitleBarLayout:1.0'
 ```
 
 You may also add the library as an Android Library to your project. All the library files live in library.
